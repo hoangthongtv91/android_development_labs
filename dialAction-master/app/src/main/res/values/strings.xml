@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DialAction</string>
+    <string name="phone_hint">Enter phone number here</string>
+</resources>

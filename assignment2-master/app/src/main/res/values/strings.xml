@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">FileIO</string>
+    <string-array name="movies">
+        <item>Catch me if you can</item>
+        <item>Flight Club</item>
+        <item>Forrest gump</item>
+        <item>Good will hunting</item>
+        <item>Pulp fiction</item>
+        <item>The godfather</item>
+        <item>The hangover</item>
+        <item>The shawshank redemption</item>
+        <item>Titanic</item>
+    </string-array>
+</resources>

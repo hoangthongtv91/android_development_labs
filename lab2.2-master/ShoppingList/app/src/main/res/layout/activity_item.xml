@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:orientation="vertical"
+    tools:context=".ItemActivity">
+
+    <Button
+        android:id="@+id/apples_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="applesPick"
+        android:text="Apples"/>
+
+    <Button
+        android:id="@+id/cheese_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="cheesePick"
+        android:text="Cheese"/>
+    <Button
+        android:id="@+id/rice_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ricePick"
+        android:text="Rice"/>
+    <Button
+        android:id="@+id/chocolates_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="chocolatesPick"
+        android:text="Chocolates"/>
+    <Button
+        android:id="@+id/milk_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="milkPick"
+        android:text="Milk"/>
+    <Button
+        android:id="@+id/grapes_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="grapesPick"
+        android:text="Grapes"/>
+    <Button
+        android:id="@+id/butter_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="butterPick"
+        android:text="Butter"/>
+    <Button
+        android:id="@+id/beef_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="beefPick"
+        android:text="Beef"/>
+    <Button
+        android:id="@+id/pork_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="porkPick"
+        android:text="Pork"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:onClick="BacktoMain"/>
+
+
+</LinearLayout>

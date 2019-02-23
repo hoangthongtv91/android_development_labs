@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GridLayoutHmWk</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_child1">ChildActivity1</string>
+    <string name="title_activity_child2">ChildActivity2</string>
+    <string name="title_activity_child3">ChildActivity3</string>
+</resources>

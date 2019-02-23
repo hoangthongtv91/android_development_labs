@@ -1,0 +1,168 @@
+<!--
+  Copyright 2018 Google Inc.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+<resources>
+    <string name="app_name">Material Me!</string>
+    <string name="title_placeholder">Title</string>
+    <string name="news_placeholder">News</string>
+    <string name="sports_info_placeholder">Here is some news</string>
+
+    <string-array name="sports_titles">
+        <item>Baseball</item>
+        <item>Badminton</item>
+        <item>Basketball</item>
+        <item>Bowling</item>
+        <item>Cycling</item>
+        <item>Golf</item>
+        <item>Running</item>
+        <item>Soccer</item>
+        <item>Swimming</item>
+        <item>Table Tennis</item>
+        <item>Tennis</item>
+    </string-array>
+
+    <string-array name="sports_info">
+        <item>Baseball\'s big problem, explained</item>
+        <item>Sudirman Cup Attracts 32 Entries</item>
+        <item>NBA All-Star Game 2019 takeaways, highlights: Team LeBron overcomes 20-point deficit to sink Team Giannis</item>
+        <item>Hand Injury Forces Troup Out Of Indy Open</item>
+        <item>Classics stars relish crosswinds chaos at Tour of Oman</item>
+        <item>Holmes called out for slow play during win, Kuchar jeered by fans, a promising weekend from Tiger and a golf legend dies: What you missed this weekend</item>
+        <item>What’s Best for Weight Loss: Sprints, HIIT, or Steady-State Running?</item>
+        <item>Paul Pogba 9/10 as Man United sweep past sorry Chelsea in FA Cup</item>
+        <item>Nathan Adrian Eyes Pool Return; Under Surveillance Plan</item>
+        <item>It’s February, Safir time once again</item>
+        <item>WHAT\'S AT STAKE: DEL POTRO RETURNS IN DELRAY; OSAKA\'S BACK, IN DUBAI</item>
+    </string-array>
+
+    <array name="sports_images">
+        <item>@drawable/img_baseball</item>
+        <item>@drawable/img_badminton</item>
+        <item>@drawable/img_basketball</item>
+        <item>@drawable/img_bowling</item>
+        <item>@drawable/img_cycling</item>
+        <item>@drawable/img_golf</item>
+        <item>@drawable/img_running</item>
+        <item>@drawable/img_soccer</item>
+        <item>@drawable/img_swimming</item>
+        <item>@drawable/img_tabletennis</item>
+        <item>@drawable/img_tennis</item>
+    </array>
+
+    <string-array name="sports_detail">
+        <item>Spring training is here — and no one seems happy
+The Toronto Blue Jays\' pitchers and catchers reported to Dunedin, Fla., on Thursday. Nearly every major-league team now has players working out, and their full rosters will all be in camp by this time next week.
+
+\"Pitchers and catchers\" is usually a feel-good time — but not so much this year. It\'s supposed to signal that spring is getting closer, but unless you\'re a snowbird the weather is awful everywhere. It\'s supposed to signal optimism and a fresh start, but fewer teams than ever seem interested in actually contending. Baseball is in trouble right now.
+
+Here\'s an explainer on what\'s going on:
+
+The two biggest free agents still haven\'t signed
+
+Outfielder Bryce Harper and infielder Manny Machado are two of the most attractive players to hit the market in recent memory. They\'re both MVP (even Hall of Fame) calibre players who are 26 years old — right in their prime and likely to remain productive through the end of their next contract. Guys like this used to have their pick of teams offering long-term contracts for big money. They would have signed back in December. Instead, they\'re still waiting for the right offer.
+
+Harper and Machado aren\'t the only good players who don\'t have a team
+
+Houston pitcher Dallas Keuchel is coming off a down year by his standards, but he\'s a former Cy Young winner who\'s still only 31. Craig Kimbrel saved 42 games last year for the World Series champion Red Sox. Infielder Mike Moustakas is back in the same boat after giving up and taking a one-year deal in March last year.</item>
+        <item>Greenland and Kenya are among 32 Member Associations who have confirmed their entry to the World Mixed Team Championships for the TOTAL BWF Sudirman Cup, which will be held in Nanning (China) from 19 to 26 May 2019.
+
+Greenland is one of 12 Member Associations from Europe in the contest. Asia has the highest representation, with 15 Member Associations, while Pan Am (two), Oceania (two) and Africa (one) have more modest representation.
+
+The sole African representatives will be Kenya; the finalists of the Pan Am and Oceania mixed team continental championships – Canada and USA, and Australia and New Zealand – are also headed for Nanning.
+
+Sudirman Cup defending champions Korea, 10-time winners China, and inaugural edition winners Indonesia are among the prominent teams from Asia. Joining them will be Japan, Malaysia, Chinese Taipei, Thailand, India, Hong Kong, Sri Lanka, Vietnam, Macau, Kazakhstan, Nepal and Singapore.
+
+The player world ranking of 5 March 2019 will be used to determine the teams’ rankings, which are a total of the ranking points of each team’s top men’s singles, women’s singles, men’s doubles, women’s doubles and mixed doubles players/pairs.
+
+The participating teams will be divided into four groups based on team rankings. The top 12 teams in Group 1 will contest the title, while the remaining teams will contest overall placings. There will be eight teams in groups 2 and 3, and four in the last group.
+
+Group 1 will further have four sub-groups of three teams. The top two teams from each group qualify to the knock-out round.
+
+The losing quarterfinalists will be ranked joint ninth, and the losing semifinalists will be ranked joint fifth. There will be no playoffs in the top group to determine team rankings.
+
+The draw for the knockout stage will be done immediately after the last match of the group playoff.
+
+Teams
+
+Asia: Korea, China, Indonesia, Japan, Malaysia, Chinese Taipei, Thailand, India, Hong Kong, Sri Lanka, Vietnam, Macau, Kazakhstan, Nepal and Singapore
+
+Europe: Denmark, England, Germany, Switzerland, Russia, France, Ireland, Netherlands, Slovakia, Lithuania, Israel, Greenland
+
+Pan Am: Canada, USA
+
+Oceania: Australia, New Zealand
+
+Africa: Kenya</item>
+        <item>The 2019 NBA All-Star Game is in the books, and once again, the new format didn\'t disappoint. After taking the first half to show out and make highlights, things got serious even earlier than last season\'s edition. Team LeBron turned up the heat in the second half to flip a 20-point deficit into a 178-164 victory.
+
+Warriors forward Kevin Durant was named All-Star Game MVP after finishing with 31 points and seven rebounds.
+        Giannis Antetokounmpo came out fired up, throwing down all sorts of slams in the opening few minutes. Then, later in the first half, he made the early play of the night, soaring to throw down an incredible bounce pass alley-oop from Steph Curry -- his first pick in the All-Star Draft. Giannis and his Bucks teammate Khris Middleton had Team Giannis out to a big lead, but they couldn\'t hold on.
+        Damian Lillard, Klay Thompson and Bradley Beal led the way in the third quarter, draining a barrage of 3-pointers to get Team LeBron back in the game. Then, the starters came back in to finish the job. LeBron finished with 19 points and eight rebounds in a captains effort.
+
+Giannis led all scorers with 38 points, while Middleton and Paul George added 20 points for Team Giannis. Here are some takeaways from an entertaining night.</item>
+        <item>A day after finishing third at the PBA Players Championship, Kyle Troup tells FloBowling he is withdrawing from this week’s Go Bowling! PBA Indianapolis Open.
+
+Following the stepladder finals Sunday, Troup said he would reevaluate how his hand felt in the morning. After waking up and being in pain, he made the decision to withdraw from this week’s event.
+
+“It was really bad this morning, and I could barely touch my palm with my ring finger,” Troup told FloBowling. “I went to the urgent care, and he said he believes it’s tendinitis, so he gave me a steroid pack and told me to rest it, continue to ice it and that should help.”
+
+During the first round of match play Thursday night at the Players Championship, Troup had a dramatic drop in the standings after having a sharp pain in the palm of his right bowling hand.
+
+He battled through the pain during the final two rounds of match play on Friday and advanced into the stepladder finals as the fifth seed. However, after winning matches against EJ Tackett and DJ Archer, Troup reinjured his hand against Anthony Simonsen in the semifinal.
+
+Troup said he felt the sharp pain again in the fifth frame against Simonsen when he threw a Brooklyn strike. From that point forward, Troup was unable to hit on the ball like he had been and faded quickly as Simonsen went on to win the match and eventually the title.
+
+Troup still plans to bowl next week’s PBA Jonesboro Open “unless for some reason my hand is still messed up.”</item>
+        <item>The Tour of Oman is widely used by Classics riders to prepare for the spring campaign, with the \'opening weekend\' of Omloop Het Nieuwsblad and Kuurne-Brussel-Kuurne just over a week away. Greg Van Avermaet, Niki Terpstra, Alexey Lutsenko, Alexander Kristoff, and Oliver Naesen are among the one-day specialists in Oman, and they got their money\'s worth on stage 3 as crosswinds ignited the race for the best part of 60 kilometres.
+        \"That was probably one of the best trainings I could do,\" said third-placed Van Avermaet, who explained he\'d been on the limit for more than 30 minutes before the final climb in Qurayyat had even begun.
+
+The riders tackled the 2.8km climb twice, the second time being the summit finish, but the race had exploded even before the first ascent. Crosswinds seemed to catch everyone off guard, and soon there were echelons, with the race coming over the top of the first climb in pieces. There was a regrouping but then the wind split the race again, leaving 35 out front to take on the final climb, where Lutsenko sprang clear to take stage honours and the overall lead.
+
+\"I totally did not expect it,\" Naesen, who finished seventh, told Cyclingnews. \"At that moment I was just telling everyone that for sure the break goes to the finish because the gap was like 6:30 and we weren\'t coming any closer, but all of a sudden it exploded and didn\'t stop.\"</item>
+        <item>Holmes outlasts Thomas at Riviera
+
+It was a marathon at Riviera. Won by a player not known for speed.
+
+Weather delays earlier in the week compelled organizers to jam as much play as possible into the weekend, leading to some gassed golf by the end of Sunday. Not helping matters were heavy winds sweeping the Pacific Palisades in the late afternoon. Yet it was J.B. Holmes who was still breathing as the sun went down, overcoming a final-round four-shot deficit to win the Genesis Open.
+
+Holmes, who played a total of 33 holes on Sunday, navigated the wind without issue (5.395 in strokes gained/approach) and, despite a couple head-shaking misses on the greens, lead the field in putting. It wasn\'t pretty, which is exactly how Holmes wanted it.</item>
+        <item>As runners, we’re always looking for ways to get faster and chase that elusive PR—and incorporating interval training into our regular routines definitely helps. But new research shows that interval training can do more than just give your running performance a boost: It can also help you shed pounds, if that’s your goal.
+        In the review and meta-analysis, which was published in the British Journal of Sports Medicine, researchers crunched the data from 36 previous studies involving 1,012 people that compared the effects of interval training with continuous moderate-intensity exercise over at least four weeks’ time.
+
+Study authors split interval training into two categories: HIIT and sprint interval training. They defined HIIT as exercise that’s done at 80 percent or more of your max heart rate, and sprint interval training as exercise that’s equal to or higher than your VO2 max (in other words, an all-out effort). While the protocols for each varied among the studies, the most widely-used HIIT routine included 4 minutes of high-intensity work followed by 3 minutes of recovery. As for sprints, most used 30 seconds of “all-out” effort alternated with 4 minutes of recovery, or 8 seconds of work with 12 seconds of recovery.</item>
+        <item>LONDON, England -- Paul Pogba inspired Manchester United to a 2-0 win over Chelsea and book their place in the FA Cup quarterfinals. The midfielder made one and scored one as United won at Stamford Bridge for the first time since 2012 to further improve Ole Gunnar Solskjaer\'s chances of getting the manager\'s job permanently.
+
+As Chelsea fans revolted against Maurizio Sarri with chants of \"you\'re getting sacked in the morning\" the United supporters spent most of the second half making it clear they want the Norwegian to get the gig on a permanent basis. Following impressive wins at Tottenham and Arsenal, Solskjaer added Chelsea to his CV. Ander Herrera scored the first with a header after Pogba\'s sublime cross to the back post before the Frenchman got his 14th goal of the season on the stroke of half-time with a diving header after fine work on the right from Marcus Rashford.</item>
+        <item>Adrian was diagnosed with testicular cancer on January 25 and underwent surgery to remove some of his lymph nodes on January 29. Adrian quickly made a return to the weight room on February 4 and has been in good spirits throughout this whole process.
+
+        A couple weeks ago, Swimming World caught up with two-time Olympian Eric Shanteau to talk about his own cancer diagnosis and how he was able to delay treatment in order to compete at the 2008 Olympics.></item>
+        <item>There are few other youth tournaments on the world stage, when taking into account the number of participating nations, that can compare with the Safir International.
+
+On the first two days of action the Swedish Junior Open takes centre stage; on Friday 22nd February, the Elite Class is the event on the menu, renowned senior players enter the arena.
+
+Notably the overall entry stands at over 465 players of whom 124 will compete in the junior boys’ singles event, 89 in the counterpart junior girls’ singles competition. Similarly the cadet boys’ singles boasts 91 in number, the total being 79 for the cadet girls’ singles; meanwhile, looking to the future there are 42 entries for the mini-cadet boys’ singles and 35 for the mini-cadet girls’ singles competition.
+
+An impressive entry, overall 32 national associations have entered players, the striking fact being that every continent affiliated to the International Table Tennis Federation is represented.
+
+Local eyes very much focus on Truls Moregard, he defends his junior boys’ singles title; for the visitors Japan’s Miwa Harimoto is a name to catch the eye, only 10 years old, the question is as to whether she can follow in the footsteps of elder brother Tomokazu. In 2015 when only 11 years of age, he reached the final of the men’s singles elite class.
+
+There is no Tomokazu Harimoto this year but in men’s singles elite class, the names of the host nation’s Mattias Falck Jon Persson, Pär Gerell, Elias Ranefur, Jens Lundquist and Viktor Brodd appear as does that of Hampus Nordberg, the defending champion. Likewise, Truls Moregard will be in action, whilst from foreign shores, England’s Liam Pitchford is the prominent name.
+
+Five days of intense action, more than 2,300 matches, some 100 umpires and 200 volunteers; Orebro is the destination, the Safir International is the tournament.</item>
+        <item>By now, February tennis has settled into its customary, quietly varied groove. From last week to this week, the cities and venues change, but the look and feel of the tour remains the same. In Europe, the men move from indoor hard courts in Rotterdam to indoor hard courts in Marseille; in South America, they travel from the clay of Buenos Aires to the clay of Rio de Janeiro; only in the U.S., where they transition from an indoor arena on Long Island to outdoor hard courts in Delray Beach, do we notice a change of scenery. On the WTA side, things will look similar, but twice as big, as the women move from a 28-player draw in Doha to a 56-player draw in Dubai.</item>
+
+    </string-array>
+
+</resources>
