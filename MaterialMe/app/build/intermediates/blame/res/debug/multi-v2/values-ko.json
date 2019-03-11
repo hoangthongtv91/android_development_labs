@@ -1,10 +1,20 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/thongnguyen/AndroidStudioProjects/MaterialMe/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ko/values-ko.xml",
+            "outputFile": "/Users/thongnguyen/AndroidStudioProjects/LabsAndAssignments/MaterialMe/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ko/values-ko.xml",
             "map": [
                 {
-                    "source": "/Users/thongnguyen/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/eea49a334a5749d8a3f1fd0951cb4b25/res/values-ko/values-ko.xml",
+                    "source": "/Users/thongnguyen/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/00ff33c6678eaae18c85737352b107a3/res/values-ko/values-ko.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,200,294,396,478,576,682,761,837,917,1015,1110,1205,1305,1401,1500,1652,1746",
+                        "endColumns": "94,93,101,81,97,105,78,75,79,97,94,94,99,95,98,151,93,77",
+                        "endOffsets": "195,289,391,473,571,677,756,832,912,1010,1105,1200,1300,1396,1495,1647,1741,1819"
+                    }
+                },
+                {
+                    "source": "/Users/thongnguyen/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/3de4009a648685877e2d6973ff01cc06/res/values-ko/values-ko.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -18,16 +28,6 @@
                         "startOffsets": "1824",
                         "endColumns": "100",
                         "endOffsets": "1920"
-                    }
-                },
-                {
-                    "source": "/Users/thongnguyen/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/58e97637fb42aade17d1c2f3f58d86d3/res/values-ko/values-ko.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,200,294,396,478,576,682,761,837,917,1015,1110,1205,1305,1401,1500,1652,1746",
-                        "endColumns": "94,93,101,81,97,105,78,75,79,97,94,94,99,95,98,151,93,77",
-                        "endOffsets": "195,289,391,473,571,677,756,832,912,1010,1105,1200,1300,1396,1495,1647,1741,1819"
                     }
                 }
             ]

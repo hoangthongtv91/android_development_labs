@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/thongnguyen/AndroidStudioProjects/MaterialMe/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pl/values-pl.xml",
+            "outputFile": "/Users/thongnguyen/AndroidStudioProjects/LabsAndAssignments/MaterialMe/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pl/values-pl.xml",
             "map": [
                 {
-                    "source": "/Users/thongnguyen/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/eea49a334a5749d8a3f1fd0951cb4b25/res/values-pl/values-pl.xml",
+                    "source": "/Users/thongnguyen/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/3de4009a648685877e2d6973ff01cc06/res/values-pl/values-pl.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/thongnguyen/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/58e97637fb42aade17d1c2f3f58d86d3/res/values-pl/values-pl.xml",
+                    "source": "/Users/thongnguyen/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/00ff33c6678eaae18c85737352b107a3/res/values-pl/values-pl.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

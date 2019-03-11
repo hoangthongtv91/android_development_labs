@@ -27,6 +27,11 @@ import android.view.View;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
 
 /***
  * Main Activity for the Material Me app, a mock sports news application
@@ -37,6 +42,9 @@ public class MainActivity extends AppCompatActivity {
     // Member variables.
     private RecyclerView mRecyclerView;
     private ArrayList<Sport> mSportsData;
+    private List<Integer> mFromIndexList = new ArrayList<Integer>();
+    private List<Integer> mToIndexList = new ArrayList<Integer>();
+    private List<Integer> mRemoveIndexList = new ArrayList<Integer>();
     private SportsAdapter mAdapter;
 
     @Override
@@ -67,17 +75,20 @@ public class MainActivity extends AppCompatActivity {
                                   RecyclerView.ViewHolder target) {
                 int from = viewHolder.getAdapterPosition();
                 int to = target.getAdapterPosition();
+                mFromIndexList.add(from);
+                mToIndexList.add(to);
                 Collections.swap(mSportsData, from, to);
                 mAdapter.notifyItemMoved(from, to);
-
                 return true;
             }
 
             @Override
             public void onSwiped(RecyclerView.ViewHolder viewHolder,
                                  int direction) {
-                mSportsData.remove(viewHolder.getAdapterPosition());
-                mAdapter.notifyItemRemoved(viewHolder.getAdapterPosition());
+                int position = viewHolder.getAdapterPosition();
+                mRemoveIndexList.add(position);
+                mSportsData.remove(position);
+                mAdapter.notifyItemRemoved(position);
             }
         });
         helper.attachToRecyclerView(mRecyclerView);
@@ -117,7 +128,27 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
-        outState.
+        outState.putIntegerArrayList("FromArray", (ArrayList<Integer>) mFromIndexList);
+        outState.putIntegerArrayList("ToArray", (ArrayList<Integer>) mToIndexList);
+        outState.putIntegerArrayList("RemovingArray", (ArrayList<Integer>) mRemoveIndexList);
+    }
 
+    @Override
+    protected void onRestoreInstanceState(Bundle savedInstanceState) {
+        mFromIndexList = savedInstanceState.getIntegerArrayList("FromArray");
+        mToIndexList = savedInstanceState.getIntegerArrayList("ToArray");
+        mRemoveIndexList = savedInstanceState.getIntegerArrayList("RemovingArray");
+        for (int i = 0; i < mFromIndexList.size(); i++){
+            Collections.swap(mSportsData, mFromIndexList.get(i), mToIndexList.get(i));
+            mAdapter.notifyItemMoved(mFromIndexList.get(i), mToIndexList.get(i));
+        }
+        for (int j = 0; j < mRemoveIndexList.size(); j++){
+            mSportsData.remove(mRemoveIndexList.get(j));
+            mAdapter.notifyItemRemoved(mRemoveIndexList.get(j));
+        }
+        mFromIndexList.clear();
+        mToIndexList.clear();
+        mRemoveIndexList.clear();
+        super.onRestoreInstanceState(savedInstanceState);
     }
 }

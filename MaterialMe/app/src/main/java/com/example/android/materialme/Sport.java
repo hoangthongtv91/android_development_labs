@@ -16,10 +16,13 @@
 
 package com.example.android.materialme;
 
+import android.os.Parcel;
+import android.os.Parcelable;
+
 /**
  * Data model for each row of the RecyclerView
  */
-class Sport {
+class Sport{
 
     // Member variables representing the title and information about the sport.
     private String title;
@@ -39,7 +42,6 @@ class Sport {
         this.imageResource = imageResource;
         this.detail = detail;
     }
-
     /**
      * Gets the title of the sport.
      *
